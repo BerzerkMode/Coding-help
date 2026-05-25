@@ -216,9 +216,8 @@ public class HelloController {
 ### Importálás ###
 
 ```
-pnpm init //cmd//
+pnpm init //cmd
 pnpm i express cors mysql2
-
 
 import express from "express";
 import cors from "cors";
@@ -301,4 +300,24 @@ async function deleteZene(req, res) {
 }
 
 ```
+
+# Frontend #
+
+### Importálás ###
+
+```
+pnpm i axios, react-router-dom //cmd
+import axios from "axios";
+
+//Példa
+
+import { useState } from 'react'
+import './App.css'
+import Bekero from './Bekero'
+import Szuro from './Szuro'
+import Gyujto from './Gyujto';
+```
+
+[https://github.com/barsonyj/help](https://github.com/barsonyj/help)
+
 
