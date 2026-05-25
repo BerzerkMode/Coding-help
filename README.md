@@ -2,9 +2,10 @@
 
 # JAVA CLI #
 
-## Osztály létrehozása ## 
+```` ## Osztály létrehozása ##
 
-```private class Adat{
+
+private class Adat{
     public String adat1;
     public String adat2;
     public int adat3;
@@ -15,9 +16,9 @@
         adat2= s[1];
         adat3= Integer.parseInt(s[2]);
     }
-}```
+}
 
-## Fájl betöltése ##
+``` ## Fájl betöltése ##
 
 private void betolt(String fajlnev) {
     Scanner be = null;
@@ -31,7 +32,7 @@ private void betolt(String fajlnev) {
     }
 }
 
-## Fájlba kiííratás ##
+``` ## Fájlba kiííratás ##
 
 PrintWriter ki = null;
 try {
