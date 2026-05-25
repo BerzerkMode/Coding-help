@@ -4,7 +4,7 @@
 
 ## Osztály létrehozása ## 
 
-private class Adat{
+```private class Adat{
     public String adat1;
     public String adat2;
     public int adat3;
@@ -15,7 +15,7 @@ private class Adat{
         adat2= s[1];
         adat3= Integer.parseInt(s[2]);
     }
-}
+}```
 
 ## Fájl betöltése ##
 
