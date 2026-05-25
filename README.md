@@ -18,4 +18,6 @@ private class Allat {
         suly = Integer.parseInt(s[2]);
         kor = Integer.parseInt(s[3]);
     }
-}
+}```
+
+## Fájl betöltése ##
